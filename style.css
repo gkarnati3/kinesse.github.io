@@ -1,0 +1,68 @@
+.navbar-brand {
+    padding-top: 0.65rem;
+    padding-left: 0.22rem;
+}
+
+.img-fluid-shorts {
+    width: auto;
+    height: auto;
+    padding-top: 30px;
+}
+
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: black;
+}
+
+a:hover, a:focus {
+    color: black;
+  }
+
+#mainNav .navbar-nav > li > a.active {
+    color: black !important;
+    background-color: white;
+}
+
+#mainNav .navbar-nav > li > a.active:hover {
+    color: black;
+}
+
+@media (min-width: 992px) {
+    #mainNav {
+      border-color: white;
+      background-color: white;
+      color: black;
+    }
+}
+
+a {
+    color: black;
+    -webkit-transition: all .35s;
+    transition: all .35s;
+}
+
+#mainNav .navbar-brand {
+    color: black;
+}
+
+#mainNav .navbar-brand:hover {
+    color: #fd7e14;
+}
+
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: #fd7e14;
+}
+
+#mainNav .navbar-nav > li > a.active {
+    color: #fd7e14 !important;
+}
+
+#mainNav .navbar-nav > li > a {
+  color: black;
+}
+
+#mainNav.navbar-shrink .navbar-brand:hover,
+#mainNav .navbar-nav>li>a:focus:hover, #mainNav .navbar-nav>li>a:hover,
+#mainNav.navbar-shrink .navbar-nav > li > a:hover,
+#mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+    color: #fd7e14;
+}
